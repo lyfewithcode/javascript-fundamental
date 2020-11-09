@@ -1,20 +1,19 @@
+function add(one, two){
+    return one + two;
+}
+
+// console.log(add());
+
+function substract(one, two){
+    return one - two;
+}
+
 var one = 1;
 var two = 2;
 
-// console.log(one + two);
+function multiplyOneAndTwo(){ //awalan harus huruf kecil untuk function
+    return one * two;
+}
 
-// two += 4;
-
-// console.log(two);
-
-var firstName = "Maulana";
-var lastName = "Ahmad";
-
-// console.log(firstName + " " + lastName);
-
-// console.log(firstName + one + two);
-
-// console.log(firstName + (one + two));
-
-console.log(one * two);
-console.log(one / two);
+var result = multiplyOneAndTwo();
+console.log(result);
