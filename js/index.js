@@ -1,12 +1,4 @@
-var person = {
-    firstName: "Maudy",
-    lastName: "Ayunda",
-    age: 21,
-    walk(){
-        return "I am walking"
-    }
+function setName() {
+    var txtName = document.getElementById('txtName');
+document.getElementById('name').innerHTML = txtName.value;
 }
-
-console.log(person.walk()); //dot
-console.log(person['firstName']); //mirip array
-console.log(person['firstName'], person['lastName']);
