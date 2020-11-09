@@ -1,19 +1,12 @@
-function add(one, two){
-    return one + two;
+var person = {
+    firstName: "Maudy",
+    lastName: "Ayunda",
+    age: 21,
+    walk(){
+        return "I am walking"
+    }
 }
 
-// console.log(add());
-
-function substract(one, two){
-    return one - two;
-}
-
-var one = 1;
-var two = 2;
-
-function multiplyOneAndTwo(){ //awalan harus huruf kecil untuk function
-    return one * two;
-}
-
-var result = multiplyOneAndTwo();
-console.log(result);
+console.log(person.walk()); //dot
+console.log(person['firstName']); //mirip array
+console.log(person['firstName'], person['lastName']);
